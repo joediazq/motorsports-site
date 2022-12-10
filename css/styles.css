@@ -41,12 +41,27 @@ h1 {
 
 header img {
     height: 10em;
-    width: 120%;
-    margin-left: -100px;
-    margin-right: 100px;
-
+    width: 100%;
 }
 
 header h1 {
     margin-top: -120px;
+}
+
+.carousel-item img {  
+    object-fit: cover;
+    object-position: center;
+    overflow: visible;
+    height:60vh;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /*Using RGBA lets us change the opacity of the color 0.5 black */
+}
+
+.display-3 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
 }
