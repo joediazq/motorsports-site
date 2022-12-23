@@ -31,8 +31,9 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.6.2",
     "flag-icon-css": "^4.1.7",
+    "icons": "^1.0.0",
     "mdb": "^0.1.0"
   }
 }

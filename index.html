@@ -13,11 +13,13 @@
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
   <link rel="stylesheet" href="dark_theme_assets/css/mdb.dark.min.css" />
+  
   <!-- endbuild -->
 
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+  <link rel="icon" href="images/checkered-flag.png">
 
   <title>Motorsports365</title>
 </head>
@@ -35,12 +37,12 @@
     </div>
   </header>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #efecec">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top navbar-default" style="background-color: #efecec">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="images/checkered-flag.png" alt="" height="20px" width="20px" /></a>
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarColor02"
-        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler navbar-light mr-auto" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarColor02"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-list"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarColor02">
@@ -264,9 +266,9 @@
     </div>
     <div class="row gx-5">
       <div class="col-md-6 mb-4">
-        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/slides/080.webp" class="img-fluid" />
-          <a href="#!">
+        <div class="bg-image hover-overlay ripple rounded-5" data-mdb-ripple-color="light">
+          <img src="https://cdn-5.motorsport.com/images/mgl/2eAvq5K2/s8/george-russell-mercedes-amg-1s-1.jpg" class="img-fluid rounded mt-5" id="news" />
+          <a href="site-in-development.html">
             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
           </a>
         </div>
@@ -274,16 +276,66 @@
 
       <div class="col-md-6 mb-4">
         <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News of the day</span>
-        <h4><strong>Facilis consequatur eligendi</strong></h4>
+        <h4><strong>Mercedes fires up new W14 F1 2023 car</strong></h4>
         <p class="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-          eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-          sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
+          Mercedes is the first Formula 1 team to confirm it has fired up its 2023 car as it continues preparations for next season.
         </p>
-        <button type="button" class="btn btn-primary">Read more</button>
+        <button type="button" id="readMore" class="btn btn-primary">Read more</button>
       </div>
     </div>
   </div>
+
+<!--Section: News of the day-->
+<hr class="my-5" />
+<!--Section: News of the day-->
+
+<div class="container-fluid">
+  <div class="row gx-5">
+    <div class="col-md-6 mb-4">
+      <div class="bg-image hover-overlay ripple rounded-5" data-mdb-ripple-color="light">
+        <img src="https://cdn-1.motorsport.com/images/amp/2Qzn7EvY/s1000/williams-fw44-1.webp" class="img-fluid rounded" id="news" />
+        <a href="site-in-development.html">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <span class="badge bg-primary px-2 py-1 shadow-1-strong mb-3">Formula 1</span>
+      <h4><strong>Ferrari announces launch date for 2023 Formula 1 car</strong></h4>
+      <p class="text-muted">
+        Ferrari has become the second team to reveal its launch plans for its 2023 Formula 1 car, picking Valentine's Day for its unveiling.
+      </p>
+      <button type="button" id="readMore" class="btn btn-primary">Read more</button>
+    </div>
+  </div>
+</div>
+
+<!--Section: News of the day-->
+<hr class="my-5" />
+<!--Section: News of the day-->
+
+<div class="container-fluid">
+  <div class="row gx-5">
+    <div class="col-md-6 mb-4">
+      <div class="bg-image hover-overlay ripple rounded-5" data-mdb-ripple-color="light">
+        <img src="https://cdn-1.motorsport.com/images/amp/254P9ZE0/s1000/23-united-autosports-usa-oreca.webp" class="img-fluid rounded" id="news" />
+        <a href="site-in-development.html">
+          <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <span class="badge bg-primary px-2 py-1 shadow-1-strong mb-3">WEC</span>
+      <h4><strong>United Autosports confident of 2023 WEC fightback after below-par season</strong></h4>
+      <p class="text-muted">
+        United Autosports drivers Oliver Jarvis and Filipe Albuquerque are confident that the LMP2 team will bounce back in the FIA World Endurance Championship next year after a season that fell short of its usual high standards in 2022.
+      </p>
+      <button type="button" id="readMore" class="btn btn-primary">Read more</button>
+    </div>
+  </div>
+</div>
 
 <!--Section: News of the day-->
 
