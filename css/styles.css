@@ -37,6 +37,7 @@ h1 {
     font-family: "Comfortaa", sans-serif;
     color: white;
     text-shadow: -0px -0px 0 #000, 0px -0px 0 #000, -0px 0px 0 #000, 4px 4px 0 #000;
+    cursor: pointer;
 }
 
 header img {
